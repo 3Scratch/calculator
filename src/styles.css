@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+}
+section {
+  padding: 1.8px;
+  width: 312px;
+  height: 335px;
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border: 1.9px solid #4f5356;
+  margin: auto;
+  transform: translateY(20%);
+  background: rgb(26, 31, 50);
+  background: linear-gradient(
+    143deg,
+    rgba(26, 31, 50, 1) 0%,
+    rgba(26, 31, 50, 1) 98%
+  );
+}
+section .input-display {
+  width: auto;
+  height: 100px;
+  text-align: end;
+  transform: translateY(5%);
+}
+section .input-display span {
+  color: white;
+  font-size: 2.6rem;
+}
+.buttons-panel {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-rows: 44px 44px 44px 44px 44px;
+  row-gap: 3px;
+}
+section .btn-grid {
+  display: grid;
+  grid-template-columns: 76.5px 76.5px 76.5px 76.5px;
+  column-gap: 2px;
+}
+section .btn-grid button {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: medium;
+  opacity: 0.8;
+  transition: all 0.1 ease-in-out;
+}
+section .btn-grid button:hover {
+  opacity: 0.9;
+}
+section .btn-grid button:active {
+  opacity: 1;
+}
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g,
+#h,
+#i,
+#j,
+#k,
+#l,
+#m,
+#n,
+#o,
+#p,
+#q,
+#r,
+#s {
+  background: rgb(53, 59, 75);
+  background: linear-gradient(
+    124deg,
+    rgba(53, 59, 75, 1) 0%,
+    rgba(54, 59, 78, 1) 99%
+  );
+}
+#t {
+  background-color: #4cc2ff;
+}
